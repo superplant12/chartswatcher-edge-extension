@@ -1,0 +1,26 @@
+{
+  "manifest_version": 3,
+  "name": "ChartsWatcher Symbol Sync",
+  "version": "0.1.0",
+  "description": "Sync the royalblue panel SYMBOL input across all ChartsWatcher dashboard windows.",
+  "permissions": [
+    "tabs"
+  ],
+  "host_permissions": [
+    "https://app.chartswatcher.com/*"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://app.chartswatcher.com/dashboard*"
+      ],
+      "js": [
+        "content.js"
+      ],
+      "run_at": "document_idle"
+    }
+  ]
+}
