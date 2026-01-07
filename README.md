@@ -30,3 +30,4 @@ royalblue context color selected and forwards symbol changes to other windows.
 ## Notes
 - Only the royalblue panel is synchronized.
 - If a page update changes the input element, the extension rebinds automatically.
+- Use at own risk. No guarantees or warranties provided. Only tested on Microsoft Edge.
