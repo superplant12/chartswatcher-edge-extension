@@ -1,5 +1,7 @@
 # ChartsWatcher Symbol Sync (Edge Extension)
 
+# Since version 1.9.9 of ChartsWatcher, native syncing across multiple browser windows has been implemented so this extension is no longer needed.
+
 This extension syncs the SYMBOL value between Edge windows that are open to
 `https://app.chartswatcher.com/dashboard`. It targets the panel that has the
 royalblue context color selected and forwards symbol changes to other windows.
